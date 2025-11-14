@@ -43,6 +43,7 @@ body {
     height: 32px;
     object-fit: contain;
     flex-shrink: 0;
+    margin-top: -5px;
 }
 
 .brand-title {
@@ -312,7 +313,7 @@ body {
     align-items: center;
     gap: 30px;
     padding: 40px clamp(20px, 5vw, 90px);
-    background-image: url(Photos/BCK\ ground.png);
+    background-image: url(Assests/SwimLaneBackGround.png);
     background-size: cover;
     background-position: center;
     margin: 30px clamp(20px, 5vw, 170px);
