@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Essential Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Visual Studio Code - The open source AI code editor with GitHub Copilot, agent mode, and intelligent code suggestions. Download free for Windows, Mac, and Linux.">
+    <meta name="keywords" content="VS Code, Visual Studio Code, code editor, AI editor, GitHub Copilot, programming, development">
+    <meta name="author" content="Microsoft">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <meta property="og:title" content="Visual Studio Code - AI Code Editor">
+    <meta property="og:description" content="The open source AI code editor with advanced features for modern development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="Photos/Mid Style.png">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Visual Studio Code - AI Code Editor">
+    <meta name="twitter:description" content="The open source AI code editor with advanced features">
+    
+    <!-- Title -->
+    <title>Visual Studio Code - AI Code Editor | Free Download</title>
+    
+    <!-- Preconnect to External Domains for Faster Loading -->
+    <link rel="preconnect" href="https://kit.fontawesome.com" crossorigin>
+    <link rel="dns-prefetch" href="https://kit.fontawesome.com">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Font Awesome (deferred for performance) -->
+    <script src="https://kit.fontawesome.com/76640a8b2d.js" crossorigin="anonymous" defer></script>
+    
+    <!-- Banner Close Script -->
+    <script>
+        function closeMcpBanner() {
+            const banner = document.getElementById('mcpBanner');
+            banner.style.opacity = '0';
+            banner.style.transform = 'translateY(-10px)';
+            setTimeout(() => {
+                banner.style.display = 'none';
+            }, 300);
+        }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <div class="logo-title-wrapper">
+                    <img src="Photos/vs-code-responsive-01-1.png" alt="VS Code Logo" class="vscode-logo" loading="eager"/>
+                    <h1 class="brand-title">Visual Studio Code</h1>
+                </div>
+                <div class="nav-links">
+                    <a href="#" class="topLink">Docs</a>
+                    <a href="#" class="topLink">Updates</a>
+                    <a href="#" class="topLink">Blogs</a>
+                    <a href="#" class="topLink">API</a>
+                    <a href="#" class="topLink">Extension</a>
+                    <a href="#" class="topLink">FAQ's</a>
+                    <a href="#" class="topLink">GitHub Copilot</a>
+                    <a href="#" class="topLink">MCP</a>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="searchBox">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="search" placeholder="Search Docs" aria-label="Search documentation" class="search-input"/>
+                </div>
+                <a href="#download" class="header-download-btn" aria-label="Download Visual Studio Code">
+                    <i class="fa-solid fa-download"></i>
+                    <span>Download</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="mcp-banner" id="mcpBanner">
+        <p>Try <a href="/">MCP servers</a> to extend agent mode in VS Code!</p>
+        <button class="mcp-close-btn" onclick="closeMcpBanner()" aria-label="Close banner">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </section>
+    
+    <main>
+        <section class="hero">
+            <h2 class="hero-title">The open source<br/>AI code editor</h2>
+            <div class="hero-cta">
+                <button class="download-btn" aria-label="Download Visual Studio Code for Windows">
+                    <i class="fa-brands fa-windows"></i> Download for Windows
+                </button>
+            </div>
+        </section>
+        
+        <section class="hero-image">
+            <img src="Photos/Mid Style.png" alt="Visual Studio Code interface preview" class="main-image" loading="lazy"/>
+        </section>
+        
+        <section class="features">
+            <article class="feature-card">
+                <h3 class="feature-title">Any model for any team</h3>
+                <p class="feature-description">Use AI models like Claude Sonnet out of the box, or bring your own key to access models from Azure, Anthropic, Google, Ollama, OpenAI, and OpenRouter.</p>
+                <div class="feature-image">
+                    <img src="Photos/Flex box 1.png" alt="AI models integration" loading="lazy"/>
+                </div>
+            </article>
+            
+            <article class="feature-card">
+                <h3 class="feature-title">An expert on your codebase</h3>
+                <p class="feature-description">Your codebase is indexed locally and remotely (on GitHub) to understand what's relevant, enabling fast, context-aware interactions.</p>
+                <div class="feature-image">
+                    <img src="Photos/fLEX bOX 2.png" alt="Codebase indexing" loading="lazy"/>
+                </div>
+            </article>
+            
+            <article class="feature-card">
+                <h3 class="feature-title">AI that works the way your team does</h3>
+                <p class="feature-description">Personalize interactions using custom instructions and reusable prompt files tailored to your workflows, tools, and projects.</p>
+                <div class="feature-image">
+                    <img src="Photos/Flex box 3.png" alt="Custom AI workflows" loading="lazy"/>
+                </div>
+            </article>
+        </section>
+        
+        <section class="cta-section">
+            <div class="cta-content">
+                <h3 class="cta-title">Use AI features in VS Code free</h3>
+            </div>
+            <div class="cta-details">
+                <p>No trial. No credit card required. Just your GitHub account.</p>
+                <button class="cta-btn" aria-label="Try Visual Studio Code for free">Try Free</button>
+            </div>
+        </section>
+        
+        <section class="detail-section agent-section">
+            <div class="detail-content">
+                <h3 class="detail-title">Agent mode</h3>
+                <p class="detail-description">Tackle complex, multi-step tasks. Agent mode reads your codebase, suggests edits across files, runs terminal commands, and responds to compile or test failures — all in a loop until the task is done. Further refine agent mode to fit your team's workflows with VS Code extensions and Model Context Protocol (MCP) servers.</p>
+            </div>
+            <div class="detail-image">
+                <img src="Photos/Flex AgentAQ.png" alt="Agent mode in action" loading="lazy"/>
+            </div>
+        </section>
+        
+        <section class="detail-section edit-section">
+            <div class="detail-content">
+                <h3 class="detail-title">Next edit suggestions</h3>
+                <p class="detail-description">VS Code predicts your next move as you code. Use the Tab key to accept AI-powered suggestions right in your editor. It intelligently recommends what to change — and where — based on the edits you're already making.</p>
+            </div>
+            <div class="detail-image">
+                <img src="Photos/Flex Edit suggestion.png" alt="Edit suggestions feature" loading="lazy"/>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
